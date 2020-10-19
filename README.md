@@ -9,9 +9,11 @@ Data Preprocessing
 Pre-processing is mandatory step required before a classifier is applied to the dataset. Nonetheless, the characteristics of the dataset are decided by the appropriate feature or variable choice technique to utilize through the model. The algorithm to predict the jobs nature is Random Forest Classifier for determining so as to recognize it is fake or legitimate. The process model can be led in the following four stages: pre- processing dataset, extracting attributes, classification and a detailed analysis. The first stage of pre- processing includes the content cleaning function and changing over the content in the structure appropriate to the classification. It incorporates getting rid of uninformative characters and words in the content along with noise extraction, for example, HTML labels, in which such words don't impact the overall direction of text.
 
 ANALYSIS
+
 The aim of this step is to construct a fundamental ruleset from a balanced dataset comprising of linguistic, relevant and metadata features obtained from measurable perceptions and exact assessment. In the following types of analysis, the real jobs are separated from the fake jobs and the different types will give a deeper insight into understanding the job.
 
 QualitativeAnalysis
+
 1. Geography based analysis:
 Analysis can be made on the basis of Geography to understand where the maximum number of jobs are posted and the place which has the maximum number of fraudulent jobs posted. The first figure reflects the maximum no. of fake jobs are posted in the USA, followed by Australia and UK with the help of balanced data. The second diagram portrays the maximum number of job postings are in Australia followed by USA and other countries.
 2. Text Analysis:
@@ -23,10 +25,13 @@ B. QuantitativeAnalysis
 After performing a thorough literature review of related datasets and looking at the evaluations performed by them. At the end, Random Forest Classifier is seen to give better performance in terms of accuracy and precision. Most classifiers produced good results and their accuracies varied from 2 to 13%.
 
 EVALUATION
+
 In the final step of analyzations, Random Forest Classifier is applied on the unbalanced dataset which consists of 17,880 job records. The outcomes indicated that 81.76% of the jobs were grouped accurately. However, in further details the recall and precision for the legitimate class is 0.903 and 0.986 respectively. Despite of these numbers, the recall is 0.751 and the precision is 0.282. A screenshot of the confusion matrix shows 16,930 correctly predicted real jobs, 469 correctly predicted fake jobs, 64 incorrect real jobs and 397 incorrectly predicted fake jobs. Considering all the above perceptions, it very well may be expressed that utilizing unbalanced classifiers can give an exactness of a good level on a completely curated completely balanced dataset. With regards to recall, the examinations demonstrated that one job out of every ten jobs in a balanced dataset dodges the prediction procedure. To accomplish better outcomes and simplicity out the high instability of employment advertisements, it can be firmly accepted that the composite information from different domains about clients and organizations ought to be consolidated.
 
 CONCLUSION
+
 This paper shows the classification of the potential attributes of the employment scam, and the presented dataset of legitimate and false job postings, an openly accessible dataset from Kaggle containing both genuine real and false employment advertisements. As appeared, the online fraud related to recruitment is a relative new field of variable seriousness that can raise rapidly to broad scam. Additionally, exploring the basis of different attributes regarding the legitimate and false dataset. Pre-processing had to be done to achieve better accuracy as the dataset looked highly imbalanced. Some analysis is done based on Geography, word count, binary attributes and HTML attributes. The evaluation shows good results and can be applied to other datasets of this field to find out the precision and accuracy of the model.
 
 FUTURE WORKS
+
 The work can be extended to other datasets and advance the ruleset by concentrating on behavior of user, organization and system information just as client-content-IP impact designs. In addition, by utilizing chart demonstrations to investigate associations between fake job ads, organizations, and clients. Eventually, the aim will be proposing to build a commercial tool that is able to identify the fake jobs with complete accuracy so that job seekers are not exploited. an appropriate work extortion location device for business purposes.
