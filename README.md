@@ -1,9 +1,11 @@
 # Predictive-Analysis-of-Fraudulent-Job-Postings
 
 Data Understanding
+
 For exploring the issue and further extrapolating knowledge from the data, the data understanding plays an important role. The dataset is taken Kaggle which consists of genuine job advertisements. The dataset contains a total of 17,880 job descriptions out of which 866 are fraudulent, whereas 17,014 are real from the period of 2012 to 2014. The dataset was already annotated if the job is fake or not on the basis of some suspicious activity by the client, incorrect contacts or wrong information about the company, complains made by the job seekers and some periodic checks. The dataset is seen to be highly unbalanced, contains a lot of duplicates and some entries have some blank fields on them. As a result of balancing, removing duplicates and removing some missing data a balanced corpus is found.
 
 Data Preprocessing
+
 Pre-processing is mandatory step required before a classifier is applied to the dataset. Nonetheless, the characteristics of the dataset are decided by the appropriate feature or variable choice technique to utilize through the model. The algorithm to predict the jobs nature is Random Forest Classifier for determining so as to recognize it is fake or legitimate. The process model can be led in the following four stages: pre- processing dataset, extracting attributes, classification and a detailed analysis. The first stage of pre- processing includes the content cleaning function and changing over the content in the structure appropriate to the classification. It incorporates getting rid of uninformative characters and words in the content along with noise extraction, for example, HTML labels, in which such words don't impact the overall direction of text.
 
 ANALYSIS
