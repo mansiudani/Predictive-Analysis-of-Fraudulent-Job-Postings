@@ -19,7 +19,14 @@ Analysis can be made on the basis of Geography to understand where the maximum n
 2. Text Analysis:
 Meticulous job advertisements are more likely to be formulated by scammers for fraudulent companies. The job description which also consists the description of the company which is found to be sketchy and short. The benefits from the job and the requirements for qualifying for the job is left blank by the scammers. From the figure below the lesser fraudulent jobs have word counts greater 800. Most of the fraudulent jobs have a basic word count of 600. So, it can be concluded that fraudulent jobs have lesser description than the real jobs.
 3. Binary Analysis
-For binary analysis the columns with the binary outputs are considered. There are seven attributes that belong to this criterion. This section was discussed in the preliminary visualizations and an elaborate analysis will be done here. Attributes in this criteria are as follows: (a) missing logo for the corporate companies; (b) scammers did not add any screening questions; (c) scammers mostly added salary amounts on the title to attract job seekers; (d) features of the job were not designated which help in further categorization (i.e. education level, industry, experience level and the functions); (e) legitimate websites ask the candidates to apply to the company website bypassing the job board website or app; (f) the resumes are supposed to be sent on the personal emails directly; (g) the basic requirement for the education level is comparatively lower. The analysis found that most fraudulent companies do not have a logo for their company.
+For binary analysis the columns with the binary outputs are considered. There are seven attributes that belong to this criterion. This section was discussed in the preliminary visualizations and an elaborate analysis will be done here. Attributes in this criteria are as follows: 
+(a) missing logo for the corporate companies; 
+(b) scammers did not add any screening questions; 
+(c) scammers mostly added salary amounts on the title to attract job seekers; 
+(d) features of the job were not designated which help in further categorization (i.e. education level, industry, experience level and the functions); 
+(e) legitimate websites ask the candidates to apply to the company website bypassing the job board website or app; 
+(f) the resumes are supposed to be sent on the personal emails directly; 
+(g) the basic requirement for the education level is comparatively lower. The analysis found that most fraudulent companies do not have a logo for their company.
 
 B. QuantitativeAnalysis
 
